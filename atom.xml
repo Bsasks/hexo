@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-07-20T03:28:25.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Carlos.Ma</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/07/20/hello-world/"/>
+    <id>http://yoursite.com/2016/07/20/hello-world/</id>
+    <published>2016-07-20T03:28:25.000Z</published>
+    <updated>2016-07-20T03:28:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Octopress</title>
+    <link href="http://yoursite.com/2013/11/18/2013-11-18-hello-octopress/"/>
+    <id>http://yoursite.com/2013/11/18/2013-11-18-hello-octopress/</id>
+    <published>2013-11-18T06:40:00.000Z</published>
+    <updated>2016-07-24T04:11:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/github_page_and-octopress.png" alt="Alt text"></p>
+<a id="more"></a>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">Ruby：http://files.rubyforge.vm.bytemark.co.uk/rubyinstaller/rubyinstaller-1.9.3-p429.exe</div><div class="line"></div><div class="line">DevKit：http://cloud.github.com/downloads/oneclick/rubyinstaller/DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe</div><div class="line"></div><div class="line">Python：http://www.python.org/ftp/python/2.7.5/python-2.7.5.msi</div><div class="line"></div><div class="line">Octopress：git://github.com/imathis/octopress.git   </div><div class="line"></div><div class="line">Git：http://msysgit.googlecode.com/files/Git-1.8.1.2-preview20130201.exe</div></pre></td></tr></table></figure>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>安装Git<br>Windows下安装Git很简单，一路next就可以了。</p>
+<h2 id="安装Ruby"><a href="#安装Ruby" class="headerlink" title="安装Ruby"></a>安装Ruby</h2><p>Ruby的安装也是一路next就可以，不过记得勾选“Add Ruby executables to your PATH”，将Ruby的执行路径加入到环境变量中，如果忘记勾选，也可以手动设置。安装完后可以在命令提示符中输入ruby –version 来确认是否安装成功。修改环境变量，解决中文问题</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">LANG=zh_CN.UTF-8</div><div class="line">LC_ALL=zh_CN.UTF-8</div></pre></td></tr></table></figure>
+<h2 id="安装DevKit"><a href="#安装DevKit" class="headerlink" title="安装DevKit"></a>安装DevKit</h2><ol>
+<li><p>解压到D:/DevKit，解压目录中没有有中文和空格；</p>
+</li>
+<li><p>必须先安装Ruby，而且Ruby需要是RubyInstallser安装。</p>
+</li>
+<li><p>解压DevKit后，在命令行输入以下命令来进行安装：</p>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">d: </div><div class="line">cd DevKit</div><div class="line">ruby dk.rb init </div><div class="line">ruby dk.rb install</div></pre></td></tr></table></figure>
+<h2 id="安装Octopress"><a href="#安装Octopress" class="headerlink" title="安装Octopress"></a>安装Octopress</h2><p>首先在GitBash中输入如下命令将Octopress代码clone到本地<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd d:/GitProject</div><div class="line">git clone git://github.com/imathis/octopress.git octopress</div></pre></td></tr></table></figure></p>
+<p>然后需要安装Octopress的依赖项，安装依赖项需要用到Ruby的gem，使用下面的命令可以更换gem的更新源，使用国内的淘宝镜像速度相对快点。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">gem sources -a http://ruby.taobao.org/</div><div class="line">gem sources -r http://rubygems.org/</div><div class="line">gem sources -l</div></pre></td></tr></table></figure>
+<p>修改Octopress目录下的Gemfile文件，将第一行的<a href="http://rubygems.org/" target="_blank" rel="external">http://rubygems.org/</a> 修改为<a href="http://ruby.taobao.org/" target="_blank" rel="external">http://ruby.taobao.org/</a></p>
+<p>在命令提示符中进入到Octopress目录，输入下面命令进行依赖项的安装</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">gem install bundler</div><div class="line">bundle install</div></pre></td></tr></table></figure>
+<h2 id="安装Octopress的默认主题"><a href="#安装Octopress的默认主题" class="headerlink" title="安装Octopress的默认主题"></a>安装Octopress的默认主题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rake install</div></pre></td></tr></table></figure>
+<h2 id="本地进行预览。"><a href="#本地进行预览。" class="headerlink" title="本地进行预览。"></a>本地进行预览。</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rake preview       #  这个时候在浏览器里输入 localhost:4000  就可以看到本地项目了</div></pre></td></tr></table></figure>
+<h2 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h2><p><code>rake new_post[&quot;title name&quot;]</code>    </p>
+<p>  注意，rake new_post[‘my first octopress blog’]中的my first octopress blog并不是博客标题，而是和生成的文件名以及url地址有关，该名称不支持中文。<br>  博客标题可以在生成的markdown文件中修改。生成的markdown文件在octopress/source/_posts目录中,编辑 markdown文件。<br>  每次添加了博客的命令后，或者修改了内容都需要执行  rake  generate  重新生成 </p>
+<h2 id="将Octopress发布到Github"><a href="#将Octopress发布到Github" class="headerlink" title="将Octopress发布到Github"></a>将Octopress发布到Github</h2><p>  登录到Github，创建一个名为username.github.com的repository，例如 xxx.github.com; 在命令提示符中进入到Octopress目录，输入下面命令：<br><code>rake setup_github_pages</code></p>
+<p>按照提示输入新建的repository的地址，例如我的地址为：</p>
+<p><code>git@github.com:xxx/xxx.github.com.git</code></p>
+<p>执行命令rake deploy 就可以将本地的内容发布到Github上。最后需要将Octopress的源文件推送到Github的Source分支上，执行下面命令即可;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git add .</div><div class="line">git commit -m “your message”</div><div class="line">git push origin source</div></pre></td></tr></table></figure>
+<p><a href="http://www.cnblogs.com/oec2003/archive/2013/05/27/3100896.html" target="_blank" rel="external">参考</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/github_page_and-octopress.png&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Github</title>
+    <link href="http://yoursite.com/2013/11/18/2013-11-19-hello-github/"/>
+    <id>http://yoursite.com/2013/11/18/2013-11-19-hello-github/</id>
+    <published>2013-11-18T06:40:00.000Z</published>
+    <updated>2016-07-24T04:11:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="将Octopress发布到Github"><a href="#将Octopress发布到Github" class="headerlink" title="将Octopress发布到Github"></a>将Octopress发布到Github</h2><a id="more"></a>
+<p>登录到Github，创建一个名为username.github.com的repository，例如 xxx.github.com；</p>
+<p>在命令提示符中进入到Octopress目录，输入下面命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rake setup_github_pages</div></pre></td></tr></table></figure></p>
+<p>按照提示输入新建的repository的地址，例如我的地址为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git@github.com:xxx/xxx.github.com.git</div></pre></td></tr></table></figure></p>
+<p>执行命令rake deploy 就可以将本地的内容发布到Github上。</p>
+<p>最后需要将Octopress的源文件推送到Github的Source分支上，执行下面命令即可：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git add .</div><div class="line">git commit -m “your message”</div><div class="line">git push origin source</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;将Octopress发布到Github&quot;&gt;&lt;a href=&quot;#将Octopress发布到Github&quot; class=&quot;headerlink&quot; title=&quot;将Octopress发布到Github&quot;&gt;&lt;/a&gt;将Octopress发布到Github&lt;/h2&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
