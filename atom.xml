@@ -43,6 +43,31 @@
   </entry>
   
   <entry>
+    <title>Hello Github</title>
+    <link href="http://yoursite.com/2013/11/18/2013-11-19-hello-github/"/>
+    <id>http://yoursite.com/2013/11/18/2013-11-19-hello-github/</id>
+    <published>2013-11-18T06:40:00.000Z</published>
+    <updated>2016-07-24T04:11:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="将Octopress发布到Github"><a href="#将Octopress发布到Github" class="headerlink" title="将Octopress发布到Github"></a>将Octopress发布到Github</h2><a id="more"></a>
+<p>登录到Github，创建一个名为username.github.com的repository，例如 xxx.github.com；</p>
+<p>在命令提示符中进入到Octopress目录，输入下面命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rake setup_github_pages</div></pre></td></tr></table></figure></p>
+<p>按照提示输入新建的repository的地址，例如我的地址为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git@github.com:xxx/xxx.github.com.git</div></pre></td></tr></table></figure></p>
+<p>执行命令rake deploy 就可以将本地的内容发布到Github上。</p>
+<p>最后需要将Octopress的源文件推送到Github的Source分支上，执行下面命令即可：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git add .</div><div class="line">git commit -m “your message”</div><div class="line">git push origin source</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;将Octopress发布到Github&quot;&gt;&lt;a href=&quot;#将Octopress发布到Github&quot; class=&quot;headerlink&quot; title=&quot;将Octopress发布到Github&quot;&gt;&lt;/a&gt;将Octopress发布到Github&lt;/h2&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello Octopress</title>
     <link href="http://yoursite.com/2013/11/18/2013-11-18-hello-octopress/"/>
     <id>http://yoursite.com/2013/11/18/2013-11-18-hello-octopress/</id>
@@ -85,31 +110,6 @@
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;/images/github_page_and-octopress.png&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello Github</title>
-    <link href="http://yoursite.com/2013/11/18/2013-11-19-hello-github/"/>
-    <id>http://yoursite.com/2013/11/18/2013-11-19-hello-github/</id>
-    <published>2013-11-18T06:40:00.000Z</published>
-    <updated>2016-07-24T04:11:57.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="将Octopress发布到Github"><a href="#将Octopress发布到Github" class="headerlink" title="将Octopress发布到Github"></a>将Octopress发布到Github</h2><a id="more"></a>
-<p>登录到Github，创建一个名为username.github.com的repository，例如 xxx.github.com；</p>
-<p>在命令提示符中进入到Octopress目录，输入下面命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rake setup_github_pages</div></pre></td></tr></table></figure></p>
-<p>按照提示输入新建的repository的地址，例如我的地址为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git@github.com:xxx/xxx.github.com.git</div></pre></td></tr></table></figure></p>
-<p>执行命令rake deploy 就可以将本地的内容发布到Github上。</p>
-<p>最后需要将Octopress的源文件推送到Github的Source分支上，执行下面命令即可：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git add .</div><div class="line">git commit -m “your message”</div><div class="line">git push origin source</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;将Octopress发布到Github&quot;&gt;&lt;a href=&quot;#将Octopress发布到Github&quot; class=&quot;headerlink&quot; title=&quot;将Octopress发布到Github&quot;&gt;&lt;/a&gt;将Octopress发布到Github&lt;/h2&gt;
     
     </summary>
     
