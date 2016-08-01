@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/07/30/test/" itemprop="url">
-                  test
+                <a class="post-title-link" href="/2016/08/01/Linux下解决非root用户免密登陆问题/" itemprop="url">
+                  Linux下解决非root用户免密登陆问题
                 </a>
               
             
@@ -303,8 +303,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-07-30T20:54:21+08:00" content="2016-07-30">
-              2016-07-30
+            <time itemprop="dateCreated" datetime="2016-08-01T17:23:37+08:00" content="2016-08-01">
+              2016-08-01
             </time>
           </span>
 
@@ -314,8 +314,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/07/30/test/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/30/test/" itemprop="commentsCount"></span>
+                <a href="/2016/08/01/Linux下解决非root用户免密登陆问题/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/01/Linux下解决非root用户免密登陆问题/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -340,7 +340,12 @@
       
         
           
-            <h2 id="this-is-test"><a href="#this-is-test" class="headerlink" title="this is test"></a>this is test</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">123</div></pre></td></tr></table></figure>
+            <p>添加app用户进行免密登陆一直无法成功，而root用户免密确可以登录成功。<br>google了好久发现需要对新用户的目录权限 和 authorized_keys 文件进行权限修改。</p>
+<p>home目录权限修改为700</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod 700 /home/git</div></pre></td></tr></table></figure>
+<p>authorized_keys 文件权限修改为 600 </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod 600 /home/git/.ssh/authorized_keys</div></pre></td></tr></table></figure>
+<p>END.</p>
 
           
         
@@ -499,109 +504,6 @@
             
               
                 
-                <a class="post-title-link" href="/2013/11/18/2013-11-18-hello-octopress/" itemprop="url">
-                  Hello Octopress
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2013-11-18T14:40:00+08:00" content="2013-11-18">
-              2013-11-18
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2013/11/18/2013-11-18-hello-octopress/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2013/11/18/2013-11-18-hello-octopress/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p><img src="/images/github_page_and-octopress.png" alt="Alt text"></p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2013/11/18/2013-11-18-hello-octopress/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
                 <a class="post-title-link" href="/2013/11/18/2013-11-19-hello-github/" itemprop="url">
                   Hello Github
                 </a>
@@ -684,6 +586,109 @@
 
 
     
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2013/11/18/2013-11-18-hello-octopress/" itemprop="url">
+                  Hello Octopress
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2013-11-18T14:40:00+08:00" content="2013-11-18">
+              2013-11-18
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2013/11/18/2013-11-18-hello-octopress/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2013/11/18/2013-11-18-hello-octopress/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p><img src="/images/github_page_and-octopress.png" alt="Alt text"></p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2013/11/18/2013-11-18-hello-octopress/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
   </section>
 
   
@@ -735,7 +740,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

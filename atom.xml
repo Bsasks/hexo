@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-30T12:55:04.000Z</updated>
+  <updated>2016-08-01T09:38:07.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,23 +16,30 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2016/07/30/test/"/>
-    <id>http://yoursite.com/2016/07/30/test/</id>
-    <published>2016-07-30T12:54:21.000Z</published>
-    <updated>2016-07-30T12:55:04.000Z</updated>
+    <title>Linux下解决非root用户免密登陆问题</title>
+    <link href="http://yoursite.com/2016/08/01/Linux%E4%B8%8B%E8%A7%A3%E5%86%B3%E9%9D%9Eroot%E7%94%A8%E6%88%B7%E5%85%8D%E5%AF%86%E7%99%BB%E9%99%86%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2016/08/01/Linux下解决非root用户免密登陆问题/</id>
+    <published>2016-08-01T09:23:37.000Z</published>
+    <updated>2016-08-01T09:38:07.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="this-is-test"><a href="#this-is-test" class="headerlink" title="this is test"></a>this is test</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">123</div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<p>添加app用户进行免密登陆一直无法成功，而root用户免密确可以登录成功。<br>google了好久发现需要对新用户的目录权限 和 authorized_keys 文件进行权限修改。</p>
+<p>home目录权限修改为700</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod 700 /home/git</div></pre></td></tr></table></figure>
+<p>authorized_keys 文件权限修改为 600 </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod 600 /home/git/.ssh/authorized_keys</div></pre></td></tr></table></figure>
+<p>END.</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;this-is-test&quot;&gt;&lt;a href=&quot;#this-is-test&quot; class=&quot;headerlink&quot; title=&quot;this is test&quot;&gt;&lt;/a&gt;this is test&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;
+      &lt;p&gt;添加app用户进行免密登陆一直无法成功，而root用户免密确可以登录成功。&lt;br&gt;google了好久发现需要对新用户的目录权限 和 authorized_keys 文件进行权限修改。&lt;/p&gt;
+&lt;p&gt;home目录权限修改为700&lt;/p&gt;
+&lt;figure class=&quot;high
     
     </summary>
     
     
-      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
   </entry>
   
@@ -57,6 +64,31 @@
     <summary type="html">
     
       &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Github</title>
+    <link href="http://yoursite.com/2013/11/18/2013-11-19-hello-github/"/>
+    <id>http://yoursite.com/2013/11/18/2013-11-19-hello-github/</id>
+    <published>2013-11-18T06:40:00.000Z</published>
+    <updated>2016-07-24T04:11:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="将Octopress发布到Github"><a href="#将Octopress发布到Github" class="headerlink" title="将Octopress发布到Github"></a>将Octopress发布到Github</h2><a id="more"></a>
+<p>登录到Github，创建一个名为username.github.com的repository，例如 xxx.github.com；</p>
+<p>在命令提示符中进入到Octopress目录，输入下面命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rake setup_github_pages</div></pre></td></tr></table></figure></p>
+<p>按照提示输入新建的repository的地址，例如我的地址为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git@github.com:xxx/xxx.github.com.git</div></pre></td></tr></table></figure></p>
+<p>执行命令rake deploy 就可以将本地的内容发布到Github上。</p>
+<p>最后需要将Octopress的源文件推送到Github的Source分支上，执行下面命令即可：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git add .</div><div class="line">git commit -m “your message”</div><div class="line">git push origin source</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;将Octopress发布到Github&quot;&gt;&lt;a href=&quot;#将Octopress发布到Github&quot; class=&quot;headerlink&quot; title=&quot;将Octopress发布到Github&quot;&gt;&lt;/a&gt;将Octopress发布到Github&lt;/h2&gt;
     
     </summary>
     
@@ -106,31 +138,6 @@
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;/images/github_page_and-octopress.png&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello Github</title>
-    <link href="http://yoursite.com/2013/11/18/2013-11-19-hello-github/"/>
-    <id>http://yoursite.com/2013/11/18/2013-11-19-hello-github/</id>
-    <published>2013-11-18T06:40:00.000Z</published>
-    <updated>2016-07-24T04:11:57.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="将Octopress发布到Github"><a href="#将Octopress发布到Github" class="headerlink" title="将Octopress发布到Github"></a>将Octopress发布到Github</h2><a id="more"></a>
-<p>登录到Github，创建一个名为username.github.com的repository，例如 xxx.github.com；</p>
-<p>在命令提示符中进入到Octopress目录，输入下面命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rake setup_github_pages</div></pre></td></tr></table></figure></p>
-<p>按照提示输入新建的repository的地址，例如我的地址为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git@github.com:xxx/xxx.github.com.git</div></pre></td></tr></table></figure></p>
-<p>执行命令rake deploy 就可以将本地的内容发布到Github上。</p>
-<p>最后需要将Octopress的源文件推送到Github的Source分支上，执行下面命令即可：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git add .</div><div class="line">git commit -m “your message”</div><div class="line">git push origin source</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;将Octopress发布到Github&quot;&gt;&lt;a href=&quot;#将Octopress发布到Github&quot; class=&quot;headerlink&quot; title=&quot;将Octopress发布到Github&quot;&gt;&lt;/a&gt;将Octopress发布到Github&lt;/h2&gt;
     
     </summary>
     
